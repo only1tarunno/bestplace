@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  padding: 60px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.bestplace{
+margin-top: 81px;
+}
+
+.bestplaceContent h1 {
+  
+  color: #0C0F0C;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.bestplaceContent p {
+  color: #8A8F97;
+  font-size: 16px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+.clockImg {
+  width: 18px;
+}
+
+.shareImg {
+  margin-left: auto;
+  width: 30px;
+}
+
+.locationTitle h2 {
+  color: #0C0F0C;
+  font-weight: 600;
+  font-size: 26px;
+  margin: 30px 0;
+}
+
+.singleCard {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: start;
+  gap: 8px;
+}
+
+.cardimg {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card-content {
+  margin-top: 12px;
+  flex-grow: 1;
+}
+
+.card-content h3 {
+  font-size: 24px;
+  color: #0C0F0C;
+  font-weight: 600;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #8A8F97;
+  margin-top: 8px;
+}
+
+.card-content h4 {
+  color: #454745;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.card-content ul {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  list-style: none;
+}
+
+.card-content ul li a {
+  font-size: 16px;
+  color: #468F77;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 4px;
+}
+
+.card-content ul li a:hover {
+  color: #03251a;
+}
+
+.card-content ul li a img {
+  width: 20px;
+}
+
+.stickyMap {
+  display: inline-block;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  box-shadow: 0 0 40px 0 #45474533;
+  border-radius: 30px;
+}
+
+.stickyMap a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #468F77;
+  padding: 7px 16px;
+  border-radius: 30px;
+}
+
+.stickyMap a:hover {
+  background-color: #0c3326;
+}
+.stickyNav{
+  box-shadow: 0 0 40px 0 #45474514;
+  background: white;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.innerSticky{
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.innerSticky button{
+  border: none;
+  background: transparent;
+}
+.innerSticky button img{
+  width: 48px;
+}
+@media (max-width: 768px) {
+  .bestplace {
+      margin-top: 0px;
+    }
+  .bestplaceContent h1 {
+    font-size: 18px;
+  }
+
+  .bestplaceContent p {
+
+    font-size: 12px;
+
+  }
+
+  .clockImg {
+    width: 16px;
+  }
+
+  .shareImg {
+
+    width: 24px;
+  }
+
+  .location {
+    padding-bottom: 180px;
+  }
+
+  .locationTitle h2 {
+
+    font-size: 16px;
+    margin: 16px 0;
+
+  }
+
+  .singleCard {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .cardimg {
+    width: 71px;
+    height: 76px;
+
+  }
+
+  .card-content {
+    margin-top: 0;
+
+  }
+
+  .card-content h3 {
+    font-size: 13px;
+
+  }
+
+  .card-content p {
+    margin-top: 0;
+    font-size: 10px;
+
+  }
+
+  .card-content h4 {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .card-content ul li a {
+    font-size: 12px;
+
+  }
+
+  .card-content ul li a img {
+    width: 16px;
+  }
+.stickyMap {
+  bottom: 80px;
+  right: 16px;
+  
+  
+}
+  .stickyMap a {
+    font-size: 14px;
+    padding: 5px 12px;
+  }
+    .stickyNav {
+      
+      top: unset;
+      bottom: 0;
+      
+    }
+    .innerSticky button img {
+      width: 24px;
+    }
+}
